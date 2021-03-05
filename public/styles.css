@@ -27,18 +27,29 @@ body {
     align-items: center;
 }
 
+.logo-text {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo-text:hover {
+    text-decoration: none;
+    color: #000;
+
+}
+
 .title {
     font-size: 2rem;
     font-weight: bold;
     padding: 15px 10px 15px 40px;
     text-align: right;
-    margin-bottom: -50px;
+    margin-bottom: -10px;
     position: relative;
 }
 
 @media only screen and (max-width: 600px) {
     .title {
-        margin-bottom: -40px;
+        margin-bottom: -10px;
     }
 }
 
@@ -54,6 +65,15 @@ body {
     font-size: 1rem;
 }
 
+.chapter a {
+    color: #000;
+}
+
 .text {
     text-align: justify;
+}
+
+.cat {
+    position:absolute;
+    height: 350px;
 }

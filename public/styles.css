@@ -77,4 +77,5 @@ body {
 .cat {
     position:absolute;
     height: 350px;
+    margin-left: -40px;
 }
